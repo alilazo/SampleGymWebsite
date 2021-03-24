@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/gymLogo.ico">
+    <link rel="stylesheet" href="./w3.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="./index.js"></script>
+    <title>Gym Sample</title>
+</head>
+<body>
+    <!--tabs-->
+    <div class="w3-top">
+        <div class="w3-bar w3-padding w3-card w3-white">
+            <div class="w3-right w3-hide-small w3-padding-large">
+                <a href="#home" class="w3-bar-item w3-button">Home</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#pricing" class="w3-bar-item w3-button">Pricing</a>
+                <a href="#location" class="w3-bar-item w3-button">Location</a>
+                <a href="#rules" class="w3-bar-item w3-button">Rules</a>
+            </div>
+
+            <div class="w3-hide-large w3-hide-medium">
+                <div class="w3-dropdown-click">
+                    <button onclick="dropdown()" class="w3-button">&#8801;</button>
+                    <div id="dropdownClick" class="w3-dropdown-content w3-bar-block w3-border">
+                        <a href="#home" class="w3-bar-item w3-button">Home</a>
+                        <a href="#about" class="w3-bar-item w3-button">About</a>
+                        <a href="#pricing" class="w3-bar-item w3-button">Pricing</a>
+                        <a href="#location" class="w3-bar-item w3-button">Location</a>
+                        <a href="#rules" class="w3-bar-item w3-button">Rules</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-hide-small">
+                <img id="logoImage" src="./Assets/gymLogo.PNG">
+            </div>
+
+        </div>
+    </div>
+
+    <!--Body-->
+    <div class="bgimg w3-display-container" id="home">
+        <div class="w3-display-bottomleft w3-center w3-padding-large">
+            <span class="w3-tag">Open from 6am to 5pm</span>
+          </div>
+          <div class="w3-display-middle w3-center">
+              <img id="backgroundOverlayLogo" class="w3-tag w3-white w3-round w3-animate-opacity " src="./Assets/gymLogo.PNG" >
+          </div>
+          <div class="w3-display-bottomright w3-center w3-padding-large">
+            <span class="w3-text-white">Str Adr street, 2069 Ave</span>
+          </div>
+    </div>
+
+    
+    <div style="margin:0 5em">
+        <!-- Pricing Tables -->
+        <div class="w3-row-padding" >
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-black w3-xlarge w3-padding-32">Day</li>
+                    <li class="w3-padding-16">
+                    <h2>$ 10</h2>
+                    <span class="w3-opacity">per day</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                <li class="w3-teal w3-xlarge w3-padding-32">Year</li>
+                <li class="w3-padding-16">
+                <h2>$ 150</h2>
+                <span class="w3-opacity">per year</span>
+                </li>
+            </ul>
+            </div>
+            
+            <div class="w3-third">
+            <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                <li class="w3-black w3-xlarge w3-padding-32">Month</li>
+                <li class="w3-padding-16">
+                <h2>$ 45</h2>
+                <span class="w3-opacity">per month</span>
+                </li>
+            </ul>
+            </div>
+        </div>
+
+        <!--About Us-->
+        <div class="w3-container w3-padding-32" id="about">
+            <h1 class="w3-center w3-border-bottom">ABOUT US</h1>
+            <p>
+                This gym launched in 2021, setting out to provide first-rate exercise facilities from near by.
+            </p>
+            <p>
+                This gym is open 24 hours, 7 days a week, including all public holidays.
+            </p>
+            <p>
+                On top of our friendly service each gym also houses qualified Personal Trainers to help you achieve your health and fitness goals.
+            </p>
+            <p>
+                Our facilities house a wide and divers range of exercise equipment, including first-rate Strength equipment.
+            </p>
+            <p>
+                One of our locations () feature supplement stores to provide you with all the suplements you may need to help you on your fitness journey.
+            </p>
+            <p>
+                Wanting to provide you with a complete health and fitness service our location also has an infrared sauna. Infrared saunas being the perfect complement to your training, with vast range of recovery benifits, amongsy other health benifits.
+            </p>
+            <p>
+                if you're looking to change up your training out location also houses a boxing gym which is open from 6am until 10pm. Boxing classes are run by professional trained boxers three times a week on Monday and Wednesday at 7:30pm, and saturday at 8am.
+            </p>
+        </div>
+
+        <!--Gym rules-->
+        <div id="rules" class="w3-container w3-padding-32 w3-border-top w3-border-bottom" >
+            <div class="w3-center"><h1 class="w3-tag">GYM RULES</h1></div>  
+            <div class="w3-row-padding">
+
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center">
+                        <li class="w3-padding-32 w3-border-0"><img src="./Assets/Icons/icon1.png" class="w3-grayscale-max"></li>
+                        <li class="w3-padding-16"><h2>NO TOWEL, NO ENTRY</h2></li>
+                    </ul>
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center">
+                        <li class="w3-padding-32 w3-border-0"><img src="./Assets/Icons/icon2.png" class="w3-grayscale-max"></li>
+                        <li class="w3-padding-16"><h2>GYM ATTIRE ONLY</h2></li>
+                    </ul>
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center">
+                        <li class="w3-padding-32 w3-border-0"><img src="./Assets/Icons/icon3.png" class="w3-grayscale-max"></li>
+                        <li class="w3-padding-16"><h2>SHOES MUST BE KEPT ON</h2></li>
+                    </ul>
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center">
+                        <li class="w3-padding-32 w3-border-0"><img src="./Assets/Icons/icon4.png" class="w3-grayscale-max"></li>
+                        <li class="w3-padding-16"><h2>NO BAGS ON THE GYM FLOOR</h2></li>
+                    </ul>
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center">
+                        <li class="w3-padding-32 w3-border-0"><img src="./Assets/Icons/icon5.png" class="w3-grayscale-max"></li>
+                        <li class="w3-padding-16"><h2>NO CHALK</h2></li>
+                    </ul>
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center">
+                        <li class="w3-padding-32 w3-border-0"><img src="./Assets/Icons/icon6.png" class="w3-grayscale-max"></li>
+                        <li class="w3-padding"><h3>PUT WEIGHTS AWAY</h3></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!--Location-->
+        <div class="w3-container" style="margin-top: 50px;" id="location">
+            <div class="w3-center"><h1 class="w3-tag">OUR GYMS</h1></div>
+            <div class="w3-row w3-center">
+                <h2 class="w3-col s6">Corpus Christi</h2>
+                <p class="w3-col s6">
+                    5858 S Padre Island Dr, Corpus Christi, TX 78412</p>
+            </div>
+            <div class="w3-center w3-padding-32 w3-hide-small">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14129.330276131997!2d-97.36348938190966!3d27.707016274052428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8668f5e9d079fdb3%3A0x2d41218ffa4ec4a3!2sPlanet%20Fitness!5e0!3m2!1sen!2sus!4v1616552636913!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="w3-center w3-padding-32 w3-hide-medium w3-hide-large">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14129.330276131997!2d-97.36348938190966!3d27.707016274052428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8668f5e9d079fdb3%3A0x2d41218ffa4ec4a3!2sPlanet%20Fitness!5e0!3m2!1sen!2sus!4v1616552636913!5m2!1sen!2sus" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>  
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="w3-center w3-padding w3-card">
+        <p>&copy; 2020 Company. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
